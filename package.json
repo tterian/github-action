@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cypress-io/github-action.git"
+    "url": "https://github.com/tterian/github-action.git"
   },
   "keywords": [
     "actions",
