@@ -2750,11 +2750,6 @@ const runTests = () => {
       cmd.push('--spec')
       cmd.push(quoteArgument(spec))
     }
-    const configFileInput = core.getInput('config-file')
-    if (configFileInput) {
-      cmd.push('--config-file')
-      cmd.push(quoteArgument(configFileInput))
-    }
     if (parallel || group) {
       // on GitHub Actions we can use workflow name and SHA commit to tie multiple jobs together
       // until a better workflow id is available
