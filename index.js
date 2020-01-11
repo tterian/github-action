@@ -385,6 +385,8 @@ const runTests = () => {
       cmd.push(envInput)
     }
 
+    console.log('test print')
+
     console.log(
       'Cypress test command: npx %s',
       cmd.join(' ')
